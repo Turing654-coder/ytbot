@@ -1,6 +1,5 @@
 """
-YouTube Downloader Telegram Bot
---------------------------------
+YouTube Downloader Telegram Bot:
 Flow:
   1. User sends a YouTube link.
   2. Bot replies with [Video] [Audio] buttons.
@@ -8,8 +7,6 @@ Flow:
      (e.g. 1080p/720p/480p/360p for video, 320/192/128 kbps for audio).
   4. Bot downloads the chosen format with yt-dlp and sends the file back.
 
-Requirements: python-telegram-bot>=21, yt-dlp, ffmpeg (system binary)
-Run: python bot.py   (set BOT_TOKEN env var first)
 """
 
 import asyncio
